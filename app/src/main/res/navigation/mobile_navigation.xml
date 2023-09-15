@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_chat">
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.example.firebase_messanger.ui.ChatFragment"
+        android:label="@string/title_chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/navigation_call"
+        android:name="com.example.firebase_messanger.ui.DashboardFragment"
+        android:label="@string/title_call"
+        tools:layout="@layout/fragment_call" />
+
+    <fragment
+        android:id="@+id/navigation_status"
+        android:name="com.example.firebase_messanger.ui.StatusFragment"
+        android:label="@string/title_status"
+        tools:layout="@layout/fragment_status" />
+
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.firebase_messanger.ui.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_status" />
+
+
+
+</navigation>

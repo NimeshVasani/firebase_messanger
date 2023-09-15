@@ -1,0 +1,33 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer circle with Rambo gradient -->
+    <item
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="4dp"
+                android:color="#00FF00" /> <!-- Red color for the stroke -->
+            <gradient
+                android:centerColor="#000000"
+                android:endColor="#00FF00"
+                android:startColor="#FF0000"
+                android:type="sweep" />
+        </shape>
+    </item>
+
+    <!-- Inner circle with white color -->
+    <item
+        android:bottom="20dp"
+        android:left="20dp"
+        android:right="20dp"
+        android:top="20dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" /> <!-- White color -->
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+</layer-list>

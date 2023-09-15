@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "811241381572",
+    "project_id": "fir-chat-app-b0074",
+    "storage_bucket": "fir-chat-app-b0074.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811241381572:android:6d13c0b2d2af1326037391",
+        "android_client_info": {
+          "package_name": "com.example.firebase_messanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811241381572-p7g19ub053k9shoau0umn716jk0tfb9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_messanger",
+            "certificate_hash": "141649e31dcc48c025fe52635bc907d46206f61f"
+          }
+        },
+        {
+          "client_id": "811241381572-h8gohm4eddld3ldn1cnmp5hncviaae8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7CZhvHOtRer6A9Q0zuSTTt4gpJxA8qWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811241381572-ddg6jsgpdajtj2c430tecg337mj65jsn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "811241381572-djldfblk7jkf4lkakf6ms00jppi399o3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "diamondcraft.devs.firebaseChatApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811241381572:android:298f2689aaac67c6037391",
+        "android_client_info": {
+          "package_name": "diamondcraft.devs.firebase_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811241381572-h8gohm4eddld3ldn1cnmp5hncviaae8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7CZhvHOtRer6A9Q0zuSTTt4gpJxA8qWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811241381572-ddg6jsgpdajtj2c430tecg337mj65jsn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "811241381572-djldfblk7jkf4lkakf6ms00jppi399o3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "diamondcraft.devs.firebaseChatApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
